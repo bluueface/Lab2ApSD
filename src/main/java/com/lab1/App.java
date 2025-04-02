@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 public class App {
 
     public static void main(String[] args) throws Exception {
+        // Testing
         List<Employee> employees = loadSampleEmployees();
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
